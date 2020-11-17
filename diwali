@@ -63,3 +63,4 @@ t.pendown()
 t.pencolor('yellow')
 fontsize=134
 t.write('DIWALI:THE FESIVAL OF LIGHTS',font=('calibri',fontsize,"italics"))
+t.hideturtle()
