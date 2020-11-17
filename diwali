@@ -1,0 +1,65 @@
+import turtle  #Inside_Out
+wn = turtle.Screen()
+wn.bgcolor("black")
+t = turtle.Turtle()
+t.speed(10000)
+t.pencolor('yellow')
+def sqrfunc(size):
+    for i in range(4):
+        t.fd(size)
+        t.left(90)
+        size = size + 5
+ 
+sqrfunc(6)
+sqrfunc(26)
+t.pencolor('blue')
+sqrfunc(46)
+sqrfunc(66)
+t.pencolor('purple')
+sqrfunc(86)
+sqrfunc(106)
+t.pencolor('green')
+sqrfunc(126)
+sqrfunc(146)
+t.pencolor('red')
+sqrfunc(166)
+sqrfunc(186)
+t.forward(190)
+
+
+t.penup()
+t.fd(70)
+t.pendown()
+t.pencolor('brown')
+t.right(90)
+t.fillcolor('brown')
+t.begin_fill()
+for x in range(180):
+
+    t.speed(100)
+    t.forward(1)
+    t.left(1)
+t.left(90)
+t.forward(115)
+t.end_fill()
+t.backward(20)
+t.right(90)
+t.fillcolor('orange')
+t.begin_fill()
+for x in range(70):
+  t.forward(1)
+  t.right(1)
+t.right(45)
+for x in range(70):
+  t.forward(1)
+  t.right(1)
+t.end_fill()
+t.penup()
+t.backward(200)
+t.right(90)
+t.forward(350)
+
+t.pendown()
+t.pencolor('yellow')
+fontsize=134
+t.write('DIWALI:THE FESIVAL OF LIGHTS',font=('calibri',fontsize,"italics"))
